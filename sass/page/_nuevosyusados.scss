@@ -1,0 +1,50 @@
+/*NUEVOS Y USADOS*/
+
+
+.banner-nuevo{
+    background-image: url(../medios/banner-nuevo.png);
+    height: 500px;
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    font-size: xx-large;
+    color: $blanco;
+    padding-top: 100px;
+}
+
+.vnuevos{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: $azul;
+            h2{
+                text-align: center;
+                font-size: 40px;
+                color: $blanco;
+            }
+}
+
+
+    .contactenos{
+        font-size: x-large;
+        color: white;
+        padding-bottom: 5px;
+    }
+
+
+    .banner-usado{
+        background-image: url(../medios/banner-usado.jpg);
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position:unset;
+        text-align:center;
+        font-size: 30rem;
+        color: white;
+        padding-top: 10rem;
+            .banner-usado h2{
+                padding-right: 55rem;
+            }
+            .banner-empresa h1{
+                font-size: 5rem;
+            }
+    }

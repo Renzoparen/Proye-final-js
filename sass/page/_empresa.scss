@@ -1,0 +1,25 @@
+/*EMPRESA*/
+
+.banner-empresa{
+    background-image: url(../medios/banner-empresa.jpg);
+    height: 440px;
+    background-size:unset;
+    background-position: center;
+    text-align: start;
+    font-size: 3rem;
+    color: $blanco;
+    padding-top: 10rem;
+    padding-left: 10rem;
+     h1{
+        font-size: 5rem;
+            }
+}
+
+.vempresa{
+    font-size: 30px;
+    background-color:$gris;
+    text-align: center;
+    color: $negro;
+    padding: 70px;
+    padding-bottom: 40px;
+}

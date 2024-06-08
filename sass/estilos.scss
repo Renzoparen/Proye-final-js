@@ -1,0 +1,29 @@
+@import "generales/variables";
+
+/*generales*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $font;
+}
+
+@import "generales/headerfooter";
+@import "page/index";
+@import "generales/boostrap";
+@import "page/nuevosyusados";
+@import "page/contacto";
+@import "page/empresa";
+
+
+
+@import "generales/mediaq";

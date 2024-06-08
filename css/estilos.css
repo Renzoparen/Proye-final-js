@@ -1,0 +1,751 @@
+/*generales*/
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Anton", sans-serif;
+}
+
+header, .header-nuevos {
+  height: 80px;
+  width: 100%;
+  background-color: #161A30;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+header img, .header-nuevos img {
+  margin-top: 0px;
+  margin-left: 5px;
+  width: 80px;
+}
+header nav, .header-nuevos nav {
+  width: 60%;
+}
+header nav ul, .header-nuevos nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+header nav ul a, .header-nuevos nav ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+footer .descripcion {
+  background-color: #B6BBC4;
+  padding: 50px;
+}
+footer .descripcion p {
+  color: #000000;
+  text-align: justify;
+  font-size: 4rem;
+  text-align: center;
+}
+footer .foot-nuevos, footer .foot-usados {
+  padding: 5rem;
+  background-color: #B6BBC4;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  text-align: center;
+}
+footer .foot-nuevos h4, footer .foot-usados h4 {
+  font-size: 10rem;
+  padding-bottom: 5px;
+}
+footer .foot-nuevos h5, footer .foot-usados h5 {
+  font-size: 4rem;
+}
+footer .foot-nuevos img, footer .foot-usados img {
+  width: 190px;
+  padding-top: 25px;
+}
+footer .foot-nuevos .foot-nuevos div, footer .foot-nuevos .foot-usados div, footer .foot-usados .foot-nuevos div, footer .foot-usados .foot-usados div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: none;
+}
+
+/*INICIO*/
+.banner {
+  background-color: #f5f5dc;
+  background-image: url(../medios/banner1.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: xx-large;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-top: 70px;
+}
+
+.novedades h2 {
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin: 20px 0px;
+  font-size: 5rem;
+}
+
+.novedades-venta {
+  display: flex;
+  flex-direction: none;
+  justify-content: space-evenly;
+  align-items: none;
+}
+.novedades-venta img {
+  width: 90%;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+.novedades-venta .bot {
+  width: 150px;
+  height: 40px;
+}
+.novedades-venta .bot:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.venta, .venta-permuta {
+  border-radius: 10px;
+  width: 47%;
+  background-color: #B6BBC4;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+}
+
+.iconos {
+  background-color: #161A30;
+}
+.iconos .titulo-presentacion {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 6rem;
+  text-decoration: underline;
+  padding: 50px;
+  background-color: #161A30;
+  color: #ffffff;
+}
+.iconos .titulo-icono {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 50px;
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.redes-contacto {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #161A30;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.redes-contacto img {
+  width: 40px;
+}
+
+.nosotros {
+  margin: 30px 0px;
+}
+
+.descripcion img {
+  height: 200px;
+  padding-left: 55rem;
+  padding-top: 50px;
+}
+
+.nuevos, .usados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.nuevos .card, .usados .card {
+  margin-right: 3%;
+}
+.nuevos .card h3, .usados .card h3 {
+  font-size: 250%;
+  text-align: center;
+}
+.nuevos .card p, .usados .card p {
+  font-size: 130%;
+  text-align: center;
+}
+.nuevos .card .stock, .usados .card .stock {
+  font-size: 140%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.nuevos .card .bot, .usados .card .bot {
+  font-size: 150%;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.nuevos .card .bot:hover, .usados .card .bot:hover {
+  transform: scale(1.1, 1);
+}
+
+/*NUEVOS Y USADOS*/
+.banner-nuevo {
+  background-image: url(../medios/banner-nuevo.png);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: xx-large;
+  color: #ffffff;
+  padding-top: 100px;
+}
+
+.vnuevos {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background-color: #161A30;
+}
+.vnuevos h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.contactenos {
+  font-size: x-large;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.banner-usado {
+  background-image: url(../medios/banner-usado.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: unset;
+  text-align: center;
+  font-size: 30rem;
+  color: white;
+  padding-top: 10rem;
+}
+.banner-usado .banner-usado h2 {
+  padding-right: 55rem;
+}
+.banner-usado .banner-empresa h1 {
+  font-size: 5rem;
+}
+
+/* CONTACTO */
+.contac {
+  width: 100%;
+  height: 50rem;
+  color: #000000;
+  padding: 15rem;
+  background-color: #B6BBC4;
+}
+.contac h1 {
+  font-size: 9rem;
+  padding-top: 40px;
+  padding-left: 100px;
+  text-align: start;
+}
+.contac h2 {
+  padding-left: 20rem;
+  font-size: x-large;
+  text-align: start;
+  text-shadow: none;
+  color: #000000;
+}
+
+.foot-contacto iframe {
+  height: 40rem;
+  width: 60rem;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.foot-contacto h2 {
+  padding-top: 40px;
+  font-size: 4rem;
+  color: #000000;
+  text-shadow: none;
+}
+
+.foot-contacto div {
+  background-color: #161A30;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none;
+  padding-bottom: 20px;
+  background-color: #f5f5dc;
+  height: 55rem;
+}
+
+.formulario {
+  margin-top: 50px;
+  background-color: #B6BBC4;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 50rem;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.mensaje {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 3rem;
+  color: #000000;
+  font-weight: 600px;
+}
+
+.boton {
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  color: #ffffff;
+}
+
+/*EMPRESA*/
+.banner-empresa {
+  background-image: url(../medios/banner-empresa.jpg);
+  height: 440px;
+  background-size: unset;
+  background-position: center;
+  text-align: start;
+  font-size: 3rem;
+  color: #ffffff;
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+.banner-empresa h1 {
+  font-size: 5rem;
+}
+
+.vempresa {
+  font-size: 30px;
+  background-color: #B6BBC4;
+  text-align: center;
+  color: #000000;
+  padding: 70px;
+  padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+  header, .header-nuevos {
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    align-items: none;
+    width: 100%;
+    height: 70px;
+  }
+  header img, .header-nuevos img {
+    height: 100px;
+    width: 80px;
+  }
+  header nav, .header-nuevos nav {
+    width: 100%;
+    background-color: #161A30;
+  }
+  header nav ul, .header-nuevos nav ul {
+    margin: 5px 10px;
+    font-size: 10px;
+  }
+  header nav ul a, .header-nuevos nav ul a {
+    font-size: 20px;
+  }
+  .banner, .banner-nuevo, .banner-usado {
+    width: 100%;
+  }
+  .banner h1, .banner-nuevo h1, .banner-usado h1 {
+    padding-top: 30px;
+  }
+  .banner .novedades h2, .banner-nuevo .novedades h2, .banner-usado .novedades h2 {
+    height: 30px;
+    font-size: xx-large;
+    text-decoration: none;
+  }
+  .banner .novedades h3, .banner-nuevo .novedades h3, .banner-usado .novedades h3 {
+    color: #000000;
+    text-shadow: none;
+  }
+  .banner .venta, .banner .venta-permuta img, .banner-nuevo .venta, .banner-nuevo .venta-permuta img, .banner-usado .venta, .banner-usado .venta-permuta img {
+    width: 160px;
+    padding-top: 10px;
+  }
+  .banner .venta, .banner-nuevo .venta, .banner-usado .venta {
+    padding-top: 19px;
+  }
+  .banner .venta-permuta p, .banner-nuevo .venta-permuta p, .banner-usado .venta-permuta p {
+    font-size: 0%;
+  }
+  .banner .venta p, .banner-nuevo .venta p, .banner-usado .venta p {
+    font-size: 0%;
+  }
+  .card-nue div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none;
+    padding-left: 5%;
+    width: 90%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .iconos {
+    width: 100%;
+    height: 125rem;
+  }
+  .iconos .titulo-presentacion {
+    font-size: 5rem;
+    padding: 10px;
+  }
+  .iconos .titulo-icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+  }
+  .iconos .titulo-icono .coment {
+    text-align: center;
+    height: 50px;
+    font-size: medium;
+    padding-bottom: 10px;
+  }
+  .redes-contacto {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: none;
+  }
+  .redes-contacto img {
+    width: 7rem;
+  }
+  .redes-contacto div {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  footer .foot-nuevos, footer .foot-usados {
+    height: 150%;
+    padding: 0%;
+  }
+  footer .foot-nuevos h4, footer .foot-usados h4 {
+    text-align: center;
+  }
+  footer .foot-nuevos h5, footer .foot-usados h5 {
+    font-size: 3rem;
+  }
+  .foot-contacto div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+  }
+  .foot-contacto div h2 {
+    padding-bottom: 15px;
+    color: #000000;
+  }
+  .foot-contacto div iframe {
+    padding: 0%;
+    width: 37.5rem;
+    margin-right: 5px;
+  }
+  .foot-contacto div .formulario {
+    font-size: 100%;
+    width: 90%;
+    align-items: center;
+  }
+  .contac {
+    width: 100%;
+    height: 0%;
+    padding: 2%;
+    padding-top: 30%;
+  }
+  .contac h1 {
+    margin-top: 5%;
+    padding: 0%;
+    font-size: 5rem;
+  }
+  .contac h2 {
+    margin-top: 2%;
+    padding: 0%;
+    font-size: 2rem;
+  }
+  .foot-contacto div iframe {
+    padding: 0%;
+    width: 90%;
+    margin: 5%;
+  }
+  .foot-contacto div .formulario {
+    width: 90%;
+    align-items: center;
+  }
+  .foot-contacto div form {
+    font-size: 90%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .foot-contacto div .boton {
+    margin-right: 5%;
+  }
+  .banner-empresa {
+    width: 100%;
+    height: 65rem;
+    padding-left: 0%;
+  }
+  .banner-empresa h1 {
+    font-size: 5rem;
+    align-items: center;
+  }
+  .banner-empresa p {
+    font-size: 3rem;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 570px) and (max-width: 700px) {
+  .foot-contacto div .formulario {
+    width: 80%;
+  }
+  .foot-contacto div form {
+    font-size: 100%;
+  }
+  .foot-contacto div .boton {
+    margin-top: 5%;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+  header, .header-nuevos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: none;
+    width: 100%;
+    height: 70px;
+  }
+  header img, .header-nuevos img {
+    height: 100px;
+    width: 80px;
+  }
+  header nav, .header-nuevos nav {
+    width: 100%;
+    background-color: #161A30;
+  }
+  header nav ul, .header-nuevos nav ul {
+    margin: 5px 10px;
+    font-size: 10px;
+  }
+  header nav ul a, .header-nuevos nav ul a {
+    font-size: 20px;
+  }
+  .banner, .banner-nuevo, .banner-usado {
+    width: 100%;
+  }
+  .banner h1, .banner-nuevo h1, .banner-usado h1 {
+    padding-top: 30px;
+  }
+  .banner .novedades h2, .banner-nuevo .novedades h2, .banner-usado .novedades h2 {
+    height: 30px;
+    font-size: xx-large;
+    text-decoration: none;
+  }
+  .banner .novedades h3, .banner-nuevo .novedades h3, .banner-usado .novedades h3 {
+    color: #000000;
+    text-align: center;
+    text-shadow: none;
+  }
+  .banner .venta, .banner .venta-permuta img, .banner-nuevo .venta, .banner-nuevo .venta-permuta img, .banner-usado .venta, .banner-usado .venta-permuta img {
+    width: 160px;
+    padding-top: 10px;
+  }
+  .banner .venta, .banner-nuevo .venta, .banner-usado .venta {
+    padding-top: 19px;
+  }
+  .banner .venta-permuta p, .banner-nuevo .venta-permuta p, .banner-usado .venta-permuta p {
+    font-size: 0%;
+  }
+  .banner .venta p, .banner-nuevo .venta p, .banner-usado .venta p {
+    font-size: 0%;
+  }
+  .card-nue div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none;
+    padding-left: 5%;
+    width: 90%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .iconos {
+    width: 100%;
+    height: 60%;
+  }
+  .iconos .titulo-presentacion {
+    font-size: 5rem;
+    padding: 10px;
+  }
+  .iconos .titulo-icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    align-items: none;
+  }
+  .iconos .titulo-icono img {
+    width: 70%;
+  }
+  .iconos .titulo-icono .coment {
+    text-align: center;
+    height: 50px;
+    font-size: medium;
+    padding-bottom: 10px;
+  }
+  .redes-contacto {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none;
+  }
+  .redes-contacto img {
+    width: 50%;
+  }
+  .redes-contacto div {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .contac {
+    padding: 0%;
+    height: 50rem;
+  }
+  .contac h1 {
+    font-size: 5rem;
+    text-align: start;
+    padding-top: 20rem;
+    padding-left: 20px;
+  }
+  .contac h2 {
+    padding: 0%;
+    padding-right: 10px;
+    margin-left: 15px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .contac div {
+    width: 100%;
+  }
+  footer .foot-nuevos, footer .foot-usados {
+    height: 100%;
+    padding: 0%;
+  }
+  footer .foot-nuevos h4, footer .foot-usados h4 {
+    text-align: center;
+  }
+  footer .foot-nuevos h5, footer .foot-usados h5 {
+    font-size: 3rem;
+  }
+  .foot-contacto div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120rem;
+  }
+  .foot-contacto div h2 {
+    padding-bottom: 15px;
+    color: #000000;
+  }
+  .foot-contacto div iframe {
+    padding: 0%;
+    width: 100%;
+    margin-right: 5px;
+  }
+  .foot-contacto div .formulario {
+    height: 50%;
+    width: 55rem;
+    align-items: center;
+  }
+  .foot-contacto div form {
+    font-size: 120%;
+  }
+  .foot-contacto div .boton {
+    width: 90%;
+    margin: 5%;
+  }
+  .banner-empresa {
+    height: 40rem;
+    padding: 0%;
+  }
+  .banner-empresa h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 45px;
+  }
+  .banner-empresa p {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

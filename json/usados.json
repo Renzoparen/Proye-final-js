@@ -1,0 +1,44 @@
+[
+        {
+            "id": 1,
+            "marca": "CITROEN AX 1.4",
+            "stock": "Disponible",
+            "año": "1997 - 326.666 Km",
+            "img":"https://mercadoracing.com/imagenes-anuncios/26/637181/citroen-ax-14gt.jpg"
+        },
+        {
+            "id": 2,
+            "marca": "PEUGEOT PARTNER 1.9 DIESEL",
+            "stock": "Disponible",
+            "año": "2003 - 105.007 Km",
+            "img":"https://d2e5b8shawuel2.cloudfront.net/vehicle/286957/hra/original.jpg"
+        },
+        {
+            "id": 3,
+            "marca": "NISSAN KICKS EXCLUSIVE 1.6",
+            "stock": "NO Disponible",
+            "año": "2019 - 54.956 Km",
+            "img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDnDA3VNe4L9nHYq9nmFUeyfctUyqJ0C2BZHoZWBN2Hco6Szz8jmVZqvhDLrBFwjUT3gWq_Bb42z8VDEgUlafOsjOXYcMBiVuVyf9AhsGAUuMbU_Kil5YP5F0SZmjfdR2JnbynN38ycBM/s1600/Prueba+Nissan+Kicks+Exclusive+1.6+CVT+%2528145%2529.JPG"
+        },
+        {
+            "id": 4,
+            "marca": "CITROEN C3 SHINE 1.2",
+            "stock": "Disponible",
+            "año": "2015 - 32.171 Km",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2018_Citroen_C3_Flair_Puretech_1.2.jpg/1200px-2018_Citroen_C3_Flair_Puretech_1.2.jpg"
+        },
+        {
+            "id": 5,
+            "marca": "FIAT UNO ATTRACTIVE 1.4",
+            "stock": "Disponible",
+            "año": "2018 - 78.653 Km",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_631543-MLU74530792340_022024-O.webp"
+        },
+        {
+            "id": 6,
+            "marca": "PEUGEOT 308 ACTIVE 1.2",
+            "stock": "Disponible",
+            "año": "2016 - 125.000 Km",
+            "img":"https://f.fcdn.app/imgs/914d42/www.usadosfidocar.com.uy/fidouy/367f/original/catalogo/000343_000343_1/2000-2000/peugeot-308-active-1-2-2015-peugeot-308-active-1-2-2015.jpg"
+        }
+    ]

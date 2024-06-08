@@ -1,0 +1,15 @@
+$font: 'Anton', sans-serif;
+
+$azul: #161A30;
+$gris: #B6BBC4;
+$beige: #f5f5dc;
+$blanco: #ffffff;
+$negro: #000000;
+
+
+@mixin flex ($direction, $justify, $aling){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+}
